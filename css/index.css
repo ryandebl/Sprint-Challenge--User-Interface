@@ -219,3 +219,38 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* -----CSS for About----- */
+
+.citySkyline {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    margin-left: 520px;
+    padding-bottom: 20px;    
+}
+
+.about {
+    padding-bottom: 20px;
+}
+
+.top-2-images {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 200px;
+      
+    
+}
+
+.bottom-2-images {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 200px;
+}
+
+.textUnderPictures {
+    text-align: center;
+}
