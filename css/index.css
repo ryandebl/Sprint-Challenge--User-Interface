@@ -85,11 +85,47 @@ p {
     padding-bottom: 20px;  
 }
 
+.upper-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.lambdaLogo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav .links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    
+}
+
+.links {
+    width: 53%;
+    padding-bottom: 20px;
+   
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.streetPic {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    margin-left: 520px;
+    padding-bottom: 20px;
+    
+}
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -101,10 +137,10 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +148,45 @@ p {
     justify-content: center;
 }
 
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
