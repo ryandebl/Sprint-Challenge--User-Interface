@@ -233,24 +233,62 @@ footer nav a {
 
 .about {
     padding-bottom: 20px;
+    border-bottom: dotted black;
 }
 
 .top-2-images {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    height: 200px;
-      
+    padding-top: 20px;
+          
+    
+}
+
+
+.strat {
+    border-bottom: dotted black;
+    padding-bottom: 20px;
+}
+
+.work {
+    border-bottom: dotted black;
     
 }
 
 .bottom-2-images {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    height: 200px;
+    
+    
+}
+
+.places {
+    border-bottom: dotted black;
+    padding-bottom: 20px;
+    padding-top: 30px
+}
+
+.collab {
+    border-bottom: dotted black;
+    padding-top: 30px
 }
 
 .textUnderPictures {
+    text-align: left;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding:
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+}
+.together {
+    display: flex;
     text-align: center;
+    width: 48%;
+    
+    
 }
