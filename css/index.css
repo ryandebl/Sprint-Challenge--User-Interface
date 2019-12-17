@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: bold;
 }
 
 p {
@@ -85,28 +86,34 @@ p {
     padding-bottom: 20px;  
 }
 
-.upper-nav {
-    display: flex;
-    justify-content: center;
-}
-
-.lambdaLogo {
-    display: flex;
+/* .lambdaLogo {
     justify-content: flex-start;
-}
-
-nav .links {
+}  */
+.upper-nav {
+    width: 95%;
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 6%;
+    
+    
     
 }
 
 .links {
-    width: 53%;
-    padding-bottom: 20px;
-   
+    /* width: 60%; */
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-left: 30px; */
 }
+
+nav a {
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: flex-end;
+    
+}
+
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -118,11 +125,13 @@ a {
     
 }
 
+
+
 .streetPic {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     width: 45%;
-    margin-left: 520px;
+    margin-left: 520px; */
     padding-bottom: 20px;
     
 }
@@ -224,10 +233,10 @@ footer nav a {
 /* -----CSS for About----- */
 
 .citySkyline {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex; */
+    /* flex-wrap: wrap;
     width: 45%;
-    margin-left: 520px;
+    margin-left: 520px; */
     padding-bottom: 20px;    
 }
 
@@ -273,6 +282,7 @@ footer nav a {
 
 .textUnderPictures {
     text-align: left;
+    padding-top: 20px;
 }
 
 button {
@@ -283,12 +293,15 @@ button {
 
 .footer-text {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
 }
 .together {
     display: flex;
-    text-align: center;
-    width: 48%;
+    text-align: center;        
     
-    
+}
+
+footer {
+    margin-top: 20px;
 }
