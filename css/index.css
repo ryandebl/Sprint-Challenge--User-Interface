@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: bold;
 }
 
 p {
@@ -85,11 +86,55 @@ p {
     padding-bottom: 20px;  
 }
 
+/* .lambdaLogo {
+    justify-content: flex-start;
+}  */
+.upper-nav {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6%;
+    
+    
+    
+}
+
+.links {
+    /* width: 60%; */
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-left: 30px; */
+}
+
+nav a {
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: flex-end;
+    
+}
+
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+.streetPic {
+    /* display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    margin-left: 520px; */
+    padding-bottom: 20px;
+    
+}
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -101,10 +146,10 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +157,45 @@ p {
     justify-content: center;
 }
 
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +227,81 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* -----CSS for About----- */
+
+.citySkyline {
+    /* display: flex; */
+    /* flex-wrap: wrap;
+    width: 45%;
+    margin-left: 520px; */
+    padding-bottom: 20px;    
+}
+
+.about {
+    padding-bottom: 20px;
+    border-bottom: dotted black;
+}
+
+.top-2-images {
+    display: flex;
+    padding-top: 20px;
+          
+    
+}
+
+
+.strat {
+    border-bottom: dotted black;
+    padding-bottom: 20px;
+}
+
+.work {
+    border-bottom: dotted black;
+    
+}
+
+.bottom-2-images {
+    display: flex;
+    
+    
+}
+
+.places {
+    border-bottom: dotted black;
+    padding-bottom: 20px;
+    padding-top: 30px
+}
+
+.collab {
+    border-bottom: dotted black;
+    padding-top: 30px
+}
+
+.textUnderPictures {
+    text-align: left;
+    padding-top: 20px;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding:
+}
+
+.footer-text {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.together {
+    display: flex;
+    text-align: center;        
+    
+}
+
+footer {
+    margin-top: 20px;
 }
